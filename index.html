@@ -8,18 +8,20 @@
     <script src="https://kit.fontawesome.com/2c827c8cca.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div >
+    <div class="border_red">
         <span class="navbar-left">
             <a href="#" class="nav-item">Google정보</a>
             <a href="#" class="nav-item">스토어</a>
         </span>
         
-        <span class="navbar">
+        <span class="navbar_right">
             <a href="#" class="nav-item">Gmail</a>
             <a href="#" class="nav-item">Images</a>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" style="margin-right: 10px;"></i>
+            <button class="login_button">로그인</button>
         </span>
     </div>
+
     
     <div class="main">
         <div>
@@ -29,39 +31,38 @@
             <i class="fa-solid fa-magnifying-glass search_icon"></i>
             <input type="text" class="input_box"> 
             <span class="key_icon">
-                <i class="fa-solid fa-keyboard"></i>
-                <i class="fa-solid fa-microphone "></i>
+                <i class="fa-solid fa-keyboard" style="margin-right: 10px;"></i>
+                <i class="fa-solid fa-microphone" style="margin-right: 10px;"></i>
                 <i class="fa-solid fa-images "></i>
             </span>
         </div>
         <div class="input_area">
-            <button>Google 검색</button>
-            <button>I'm Feeling Lucky</button>
+            <button class="button_middle">Google 검색</button>
+            <button class="button_middle">I'm Feeling Lucky</button>
         </div>
-        <div class="input_area">
-            Google offered in:
-            <a href="#">한국어</a>
-            <a href="#">베트남</a>
-            <a href="#">프랑스</a>
-            <a href="#">중국어</a>
+        <div class="input_area info_middle">
+            <i class="fa-regular fa-gem"></i>
+            <span style="color: red;">New!</span>
+            <a href="#" style="text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Gemini Advanced를 통해</a>
+            <span>최고 성능의 Google AI와 특별한 기능들을 경험해 보세요</span>
         </div>
     </div>
    
-    <div>
-        <div>
+    <div class="footer">
+        <div class="first_line">
             대한민국
         </div>
-        <div>
-            <span>
-                <a href="#">광고</a>
-                <a href="#">비즈니스</a>
-                <a href="#">검색의 원리</a>
+        <div class="second_line">
+            <span class="footer_right">
+                <a href="#" class="footer-item">광고</a>
+                <a href="#" class="footer-item">비즈니스</a>
+                <a href="#" class="footer-item">검색의 원리</a>
             </span>
 
-            <span>
-                <a href="#">개인정보처리방침</a>
-                <a href="#">약관</a>
-                <a href="#">설정</a>
+            <span class="footer-left">
+                <a href="#" class="footer-item">개인정보처리방침</a>
+                <a href="#" class="footer-item">약관</a>
+                <a href="#" class="footer-item">설정</a>
             </span>
         </div>
     </div>
