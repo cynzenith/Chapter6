@@ -113,6 +113,7 @@ body{
 
 .info_middle{
     font-size: 13px;
+    vertical-align: middle;
 }
 .login_button{
     font-size: 14px;
