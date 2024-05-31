@@ -1,141 +1,127 @@
-/* Container 기본 스타일 */
-.container {
+body{
+    display: contents;
+}
+.navbar_right{
+    float:right;
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+.navbar-left{
+    float:left;
+    margin: 20px;
+        /* border: 1px solid red; */
+}
+
+.border_red{
     border: 1px solid red;
-    height: 600px;
-    width: 600px;
-    display: flex;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.main{
+    margin-top: 200px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.input_area{
+    margin-top: 20px;
+}
+
+.input_box{
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+
+.search_icon{
     position: relative;
-    align-items: flex-start;  /* 상단 중앙 정렬을 위해 변경 */
+    left:40px;
 }
 
-/* 공통 box 스타일 */
-.box {
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    color: white;
-    display: flex;
-    justify-content: center;  
-    align-items: center;
+.key_icon{
     position: relative;
+    right:100px;
 }
 
-/* box1 스타일 */
-.box1 {
-    justify-content: flex-end;
+.mic_icon{
+    position: relative;
+    right:80px;
 }
 
-/* box2 스타일 */
-.box2 {
-    flex-direction: column;
-    justify-content: space-between;
+.album_icon{
+    position: relative;
+    right:40px;
 }
 
-/* box3 스타일 */
-.box3 {
-    justify-content: center;
-    align-items: flex-start; 
+.footer{
+    position: absolute;
+    bottom:0px;
+    background-color: #f2f2f2;
+    width: 100%;
 }
 
-.box3 {
-    justify-content: flex-start;
+.first_line{
+    padding: 15px 30px;
+    border-bottom: 1px solid rgb(217, 213, 213);
+    font-size: 15px;
 }
 
-.box4{
-    justify-content: flex-end;
-    align-items: flex-end;
+.second_line{
+    padding: 15px 30px 30px 30px;
+    font-size: 15px;
 }
 
-.margin-right {
+.footer_right{
+    float:right;
+    /* border: 1px solid red; */
+}
+.footer-left{
+    float:left;
+        /* border: 1px solid red; */
+}
+
+.footer-item{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+}
+
+.footer-item:hover{
+    text-decoration: underline;
+}
+
+.button_middle{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 15px;
+    padding : 10px 15px;
     margin-right: 10px;
 }
 
-/* 개별 박스 위치 스타일 */
-.top-left {
-    position: absolute;
-    top: 0;
-    left: 0;
+.info_middle{
+    font-size: 13px;
+    vertical-align: middle;
 }
-
-.align-start {
-    align-self: flex-start;
-}
-
-.align-center {
-    align-self: center;
-}
-
-.align-end {
-    align-self: flex-end;
-}
-
-.align-bottom-left {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.align-bottom-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-/* 회색 박스 스타일 */
-.grey-box {
-    background-color: grey;
-    height: 300px;
-    width: 300px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.grey-box2 {
-    background-color: grey;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    position: absolute;
-    top:50px;
-    left:50px;
-}
-
-.grey-box3 {
-    background-color: grey;
-    height: 150px;
-    width: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-
-/* 블랙 박스를 중앙에 위치시키기 위한 스타일 */
-.centered-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    width: 100px;
-    height: 100px;
-
+.login_button{
+    font-size: 14px;
+    padding: 7px 25px;
+    background-color: #4285f4;
     color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
 }
 
-.box-size{
-    width:200px;
-    height:200px;
-}
-
-/* 텍스트를 왼쪽 상단에 위치시키는 스타일 */
-.text-top-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 5px;
-    color:white
-}
